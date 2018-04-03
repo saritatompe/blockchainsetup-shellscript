@@ -115,7 +115,7 @@ function setup(){
 	cd ..
 	sudo cp hyperledger/fabric/examples/e2e_cli/configtx.yaml ./conf/
 	 cd conf/ 
-	sudo cp 
+	
          export CHANNEL_NAME=mychannel
          sudo mkdir channel-artifacts
          cd channel-artifacts/
